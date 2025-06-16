@@ -12,7 +12,6 @@ import PokemonAPI
 
 class PokemonViewController: UIViewController {
     
-    
     @IBOutlet weak var nombrePokemonLabel: UILabel!
     
     @IBOutlet weak var pokemonImageView: UIImageView!

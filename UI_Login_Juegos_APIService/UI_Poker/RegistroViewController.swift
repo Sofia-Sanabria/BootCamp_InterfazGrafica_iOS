@@ -10,8 +10,6 @@
 import UIKit
 import Foundation
 
-import UIKit
-
 class RegistroViewController: UIViewController {
     
     @IBOutlet weak var registroLabel: UILabel!

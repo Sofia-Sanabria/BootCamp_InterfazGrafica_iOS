@@ -134,7 +134,6 @@ class HomeViewController: UIViewController {
 
         // Mostrar el nombre del jugador en la etiqueta
         jugadorLabel.text = SesionUsuario.shared.nombre ?? "Jugador"
-
     }
     
     // Manejar la visibilidad de los botones de scroll

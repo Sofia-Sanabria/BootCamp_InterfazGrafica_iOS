@@ -15,8 +15,7 @@ class TablaViewController: UIViewController, UITableViewDelegate, UITableViewDat
     
     // Arreglo que contiene los mejores puntajes
     var mejoresPuntajes: [ScoreRequest] = []
-    
-    
+     
     var cantidadTop: Int = 5 // valor de prefijo por defecto
     var nombreJugador: String = "" // Nombre el jugador
     var mostrarSoloJugador = false // Muestra los puntajes

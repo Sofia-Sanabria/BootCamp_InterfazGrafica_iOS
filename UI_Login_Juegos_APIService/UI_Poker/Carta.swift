@@ -92,7 +92,6 @@ func determinarGanador(j1: Resultado, j2: Resultado) -> (String, String) {
     var ganadorEncontrado = ""
     var jugada = ""
     
-
     if j1.ranking > j2.ranking {
         ganadorEncontrado = j1.jugador
         jugada = j1.tipoJugada

@@ -14,6 +14,7 @@ import Alamofire
 struct APIError: Error {
     let msg: String
 }
+
 // Alias para headers y parámetros
 typealias APIHeaders = HTTPHeaders
 typealias APIParameters = [String: Any]

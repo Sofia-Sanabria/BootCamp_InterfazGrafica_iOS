@@ -55,7 +55,6 @@ class TocameViewController: UIViewController {
         startTimer()
     }
     
-    
     @IBAction func top5Button(_ sender: UIButton) {
         // Navegacion sin flecha
         guard let puntajesVC = storyboard?.instantiateViewController(withIdentifier: "puntajesID") as? TablaViewController else { return  }
@@ -63,7 +62,6 @@ class TocameViewController: UIViewController {
         puntajesVC.mostrarSoloJugador = false
         show(puntajesVC, sender: nil)
     }
-    
     
     @objc func ositoTocado() {
         // Aumentar puntaje

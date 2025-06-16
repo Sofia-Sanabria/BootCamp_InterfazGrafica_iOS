@@ -14,6 +14,5 @@ class SesionUsuario {
     
      var accessToken: String!
      var userId: String!
-     var nombre: String!
-     
+     var nombre: String! 
 }
