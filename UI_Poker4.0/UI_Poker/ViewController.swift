@@ -191,7 +191,6 @@ class ViewController: UIViewController {
             }
         }
     }
-
 }
 
 // Funcion que contiene la alerta
