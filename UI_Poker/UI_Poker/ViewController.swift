@@ -38,6 +38,7 @@ class ViewController: UIViewController {
         mostrarAlertaAnimada(en: self, ganador: ganador, jugada: jugada)
         
     }
+    
     @IBOutlet weak var mensajeLabel: UILabel!
     
     @IBOutlet weak var jugador1Label: UILabel!
