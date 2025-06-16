@@ -24,7 +24,6 @@ class LoginViewController: UIViewController {
     
     @IBOutlet weak var puntajesOutlet: UIButton!
     
-    
     // Boton que contiene una accion para iniciar seccion una vez pasado todas las validaciones
     @IBAction func iniciarSesionButton(_ sender: UIButton) {
         guard let nombre = nombreTextField.text,

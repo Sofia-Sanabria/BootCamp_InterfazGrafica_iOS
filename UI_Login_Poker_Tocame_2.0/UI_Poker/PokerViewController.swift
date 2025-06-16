@@ -132,8 +132,7 @@ class PokerViewController: UIViewController {
         fondoCartas2View?.backgroundColor = UIColor.clear
 
         // Estado inicial del boton
-        pokerButtonOutlet.setTitle("Barajar", for: .normal)
-        
+        pokerButtonOutlet.setTitle("Barajar", for: .normal)       
     }
     
     // Funcion que recorre las cartas y carga las imagenes del jugador 1

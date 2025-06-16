@@ -72,7 +72,6 @@ class TablaViewController: UIViewController, UITableViewDelegate, UITableViewDat
         mejoresPuntajes = Array(mejores)
         tableView.reloadData()
     }
-
 }
 
 // Funcion que carga el historial de puntajes

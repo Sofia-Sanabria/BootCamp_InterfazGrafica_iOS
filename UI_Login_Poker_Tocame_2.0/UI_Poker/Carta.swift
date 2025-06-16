@@ -85,9 +85,7 @@ func analizarMano(jugador: String, cartas: [Carta]) -> Resultado {
         ranking: ranking,
         valores: valores
     )
-    
 }
-
 
 func determinarGanador(j1: Resultado, j2: Resultado) -> (String, String) {
 
