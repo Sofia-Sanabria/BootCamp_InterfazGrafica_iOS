@@ -63,7 +63,6 @@ class ViewController: UIViewController {
         
     }
     
-    
     @IBOutlet weak var pokerButtonOutlet: UIButton!
     
     @IBOutlet weak var mensajeLabel: UILabel!

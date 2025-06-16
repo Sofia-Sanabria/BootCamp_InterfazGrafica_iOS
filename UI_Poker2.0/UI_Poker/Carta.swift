@@ -89,7 +89,6 @@ func analizarMano(jugador: String, cartas: [Carta]) -> Resultado {
     
 }
 
-
 func determinarGanador(j1: Resultado, j2: Resultado) -> (String, String) {
 
     var ganadorEncontrado = ""
