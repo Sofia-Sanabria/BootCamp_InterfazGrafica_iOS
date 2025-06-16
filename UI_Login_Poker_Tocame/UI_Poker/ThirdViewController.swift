@@ -54,7 +54,6 @@ class ThirdViewController: UIViewController {
         startTimer()
     }
     
-    
     @IBAction func top5Button(_ sender: UIButton) {
         // Navegacion sin flecha
         guard let puntajesVC = storyboard?.instantiateViewController(withIdentifier: "puntajesID") as? NewViewController else { return  }

@@ -47,7 +47,6 @@ class SecondViewController: UIViewController {
                 Carta("AS"), Carta("2S"), Carta("3S"), Carta("4S"), Carta("5S")
             ])
         
-
             let (ganador, jugada) = determinarGanador(j1: resultado1, j2: resultado2)
             mostrarAlertaAnimada(en: self, ganador: ganador, jugada: jugada)
 

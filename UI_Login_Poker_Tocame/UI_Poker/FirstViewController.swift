@@ -137,6 +137,4 @@ extension FirstViewController: UIPickerViewDelegate, UIPickerViewDataSource {
             buttonConstraint.constant = 260.7
         }
     }
-    
-    
 }
